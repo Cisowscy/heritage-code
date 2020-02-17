@@ -1,0 +1,33 @@
+{
+  "npmScope": "@cisowscy",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "nest-cli.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "client": {
+      "tags": []
+    },
+    "client-e2e": {
+      "tags": [],
+      "implicitDependencies": ["client"]
+    },
+    "icons": {
+      "tags": []
+    },
+    "server": {
+      "tags": []
+    },
+    "server-e2e": {
+      "tags": [],
+      "implicitDependencies": ["server"]
+    }
+  }
+}

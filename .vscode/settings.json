@@ -1,0 +1,32 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1d2d3b",
+    "activityBar.activeBorder": "#964a72",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#964a72",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#0c1319",
+    "titleBar.inactiveBackground": "#0c131999",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#0c1319",
+    "statusBarItem.hoverBackground": "#1d2d3b",
+    "statusBar.foreground": "#e7e7e7"
+  },
+    // translate suport.
+  "i18n-ally.localesPaths": "apps/client/src/assets/i18n",
+  // Prettier uses single quotes.
+  "prettier.singleQuote": true,
+  // Prettify on save
+  //"editor.formatOnSave": true,
+  // prettier uses 2 spaces instead of 4
+  "editor.tabSize": 2,
+  // organize imports on save
+  //"editor.codeActionsOnSave": {
+  //  "source.organizeImports": true
+  //},
+  // Uses the project specific typescript version.
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "peacock.color": "#0c1319",
+}
