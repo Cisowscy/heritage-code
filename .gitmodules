@@ -1,3 +1,9 @@
-[submodule "dist"]
-	path = dist
-	url = https://github.com/Cisowscy/heritage.git
+[submodule "apps/client"]
+	path = apps/client
+	url = https://github.com/Cisowscy/db-project-app-client.git
+[submodule "apps/server"]
+	path = apps/server
+	url = https://github.com/Cisowscy/db-project-app-server.git
+[submodule "libs/icons"]
+	path = libs/icons
+	url = https://github.com/Cisowscy/db-project-lib-icons.git
